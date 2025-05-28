@@ -1,7 +1,7 @@
 # Load required libraries
-library(ggplot2)
-library(dplyr)
-library(stringr)
+suppressPackageStartupMessages(library(ggplot2))
+suppressPackageStartupMessages(library(dplyr))
+suppressPackageStartupMessages(library(stringr))
 
 rm(list = ls(all = TRUE))
 
