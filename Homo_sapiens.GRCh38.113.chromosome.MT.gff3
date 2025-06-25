@@ -1,0 +1,171 @@
+##gff-version 3
+##sequence-region   MT 1 16569
+#!genome-build Genome Reference Consortium GRCh38.p14
+#!genome-version GRCh38
+#!genome-date 2013-12
+#!genome-build-accession GCA_000001405.29
+#!genebuild-last-updated 2024-07
+MT	GRCh38	chromosome	1	16569	.	.	.	ID=chromosome:MT;Alias=chrM,J01415.2,NC_012920.1
+###
+MT	insdc	ncRNA_gene	577	647	.	+	.	ID=gene:ENSG00000210049;Name=MT-TF;biotype=Mt_tRNA;description=mitochondrially encoded tRNA-Phe (UUU/C) [Source:HGNC Symbol%3BAcc:HGNC:7481];gene_id=ENSG00000210049;logic_name=mt_genbank_import_homo_sapiens;version=1
+MT	insdc	tRNA	577	647	.	+	.	ID=transcript:ENST00000387314;Parent=gene:ENSG00000210049;Name=MT-TF-201;biotype=Mt_tRNA;tag=gencode_basic,Ensembl_canonical;transcript_id=ENST00000387314;transcript_support_level=NA;version=1
+MT	insdc	exon	577	647	.	+	.	Parent=transcript:ENST00000387314;Name=ENSE00001544501;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ENSE00001544501;rank=1;version=1
+###
+MT	insdc	ncRNA_gene	648	1601	.	+	.	ID=gene:ENSG00000211459;Name=MT-RNR1;biotype=Mt_rRNA;description=mitochondrially encoded 12S rRNA [Source:HGNC Symbol%3BAcc:HGNC:7470];gene_id=ENSG00000211459;logic_name=mt_genbank_import_homo_sapiens;version=2
+MT	insdc	rRNA	648	1601	.	+	.	ID=transcript:ENST00000389680;Parent=gene:ENSG00000211459;Name=MT-RNR1-201;biotype=Mt_rRNA;tag=gencode_basic,Ensembl_canonical;transcript_id=ENST00000389680;transcript_support_level=NA;version=2
+MT	insdc	exon	648	1601	.	+	.	Parent=transcript:ENST00000389680;Name=ENSE00001544499;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ENSE00001544499;rank=1;version=2
+###
+MT	insdc	ncRNA_gene	1602	1670	.	+	.	ID=gene:ENSG00000210077;Name=MT-TV;biotype=Mt_tRNA;description=mitochondrially encoded tRNA-Val (GUN) [Source:HGNC Symbol%3BAcc:HGNC:7500];gene_id=ENSG00000210077;logic_name=mt_genbank_import_homo_sapiens;version=1
+MT	insdc	tRNA	1602	1670	.	+	.	ID=transcript:ENST00000387342;Parent=gene:ENSG00000210077;Name=MT-TV-201;biotype=Mt_tRNA;tag=gencode_basic,Ensembl_canonical;transcript_id=ENST00000387342;transcript_support_level=NA;version=1
+MT	insdc	exon	1602	1670	.	+	.	Parent=transcript:ENST00000387342;Name=ENSE00001544498;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ENSE00001544498;rank=1;version=1
+###
+MT	insdc	ncRNA_gene	1671	3229	.	+	.	ID=gene:ENSG00000210082;Name=MT-RNR2;biotype=Mt_rRNA;description=mitochondrially encoded 16S rRNA [Source:HGNC Symbol%3BAcc:HGNC:7471];gene_id=ENSG00000210082;logic_name=mt_genbank_import_homo_sapiens;version=2
+MT	insdc	rRNA	1671	3229	.	+	.	ID=transcript:ENST00000387347;Parent=gene:ENSG00000210082;Name=MT-RNR2-201;biotype=Mt_rRNA;tag=gencode_basic,Ensembl_canonical;transcript_id=ENST00000387347;transcript_support_level=NA;version=2
+MT	insdc	exon	1671	3229	.	+	.	Parent=transcript:ENST00000387347;Name=ENSE00001544497;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ENSE00001544497;rank=1;version=2
+###
+MT	insdc	ncRNA_gene	3230	3304	.	+	.	ID=gene:ENSG00000209082;Name=MT-TL1;biotype=Mt_tRNA;description=mitochondrially encoded tRNA-Leu (UUA/G) 1 [Source:HGNC Symbol%3BAcc:HGNC:7490];gene_id=ENSG00000209082;logic_name=mt_genbank_import_homo_sapiens;version=1
+MT	insdc	tRNA	3230	3304	.	+	.	ID=transcript:ENST00000386347;Parent=gene:ENSG00000209082;Name=MT-TL1-201;biotype=Mt_tRNA;tag=gencode_basic,Ensembl_canonical;transcript_id=ENST00000386347;transcript_support_level=NA;version=1
+MT	insdc	exon	3230	3304	.	+	.	Parent=transcript:ENST00000386347;Name=ENSE00002006242;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ENSE00002006242;rank=1;version=1
+###
+MT	.	biological_region	3230	3304	41.5	+	.	external_name=Leu;logic_name=trnascan
+MT	insdc	gene	3307	4262	.	+	.	ID=gene:ENSG00000198888;Name=MT-ND1;biotype=protein_coding;description=mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 1 [Source:HGNC Symbol%3BAcc:HGNC:7455];gene_id=ENSG00000198888;logic_name=mt_genbank_import_homo_sapiens;version=2
+MT	insdc	mRNA	3307	4262	.	+	.	ID=transcript:ENST00000361390;Parent=gene:ENSG00000198888;Name=MT-ND1-201;biotype=protein_coding;tag=gencode_basic,Ensembl_canonical;transcript_id=ENST00000361390;transcript_support_level=NA;version=2
+MT	insdc	exon	3307	4262	.	+	.	Parent=transcript:ENST00000361390;Name=ENSE00001435714;constitutive=1;ensembl_end_phase=2;ensembl_phase=0;exon_id=ENSE00001435714;rank=1;version=2
+MT	insdc	CDS	3307	4262	.	+	0	ID=CDS:ENSP00000354687;Parent=transcript:ENST00000361390;protein_id=ENSP00000354687
+###
+MT	insdc	ncRNA_gene	4263	4331	.	+	.	ID=gene:ENSG00000210100;Name=MT-TI;biotype=Mt_tRNA;description=mitochondrially encoded tRNA-Ile (AUU/C) [Source:HGNC Symbol%3BAcc:HGNC:7488];gene_id=ENSG00000210100;logic_name=mt_genbank_import_homo_sapiens;version=1
+MT	insdc	tRNA	4263	4331	.	+	.	ID=transcript:ENST00000387365;Parent=gene:ENSG00000210100;Name=MT-TI-201;biotype=Mt_tRNA;tag=gencode_basic,Ensembl_canonical;transcript_id=ENST00000387365;transcript_support_level=NA;version=1
+MT	insdc	exon	4263	4331	.	+	.	Parent=transcript:ENST00000387365;Name=ENSE00001993597;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ENSE00001993597;rank=1;version=1
+###
+MT	insdc	ncRNA_gene	4329	4400	.	-	.	ID=gene:ENSG00000210107;Name=MT-TQ;biotype=Mt_tRNA;description=mitochondrially encoded tRNA-Gln (CAA/G) [Source:HGNC Symbol%3BAcc:HGNC:7495];gene_id=ENSG00000210107;logic_name=mt_genbank_import_homo_sapiens;version=1
+MT	insdc	tRNA	4329	4400	.	-	.	ID=transcript:ENST00000387372;Parent=gene:ENSG00000210107;Name=MT-TQ-201;biotype=Mt_tRNA;tag=gencode_basic,Ensembl_canonical;transcript_id=ENST00000387372;transcript_support_level=NA;version=1
+MT	insdc	exon	4329	4400	.	-	.	Parent=transcript:ENST00000387372;Name=ENSE00001544494;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ENSE00001544494;rank=1;version=1
+###
+MT	insdc	ncRNA_gene	4402	4469	.	+	.	ID=gene:ENSG00000210112;Name=MT-TM;biotype=Mt_tRNA;description=mitochondrially encoded tRNA-Met (AUA/G) [Source:HGNC Symbol%3BAcc:HGNC:7492];gene_id=ENSG00000210112;logic_name=mt_genbank_import_homo_sapiens;version=1
+MT	insdc	tRNA	4402	4469	.	+	.	ID=transcript:ENST00000387377;Parent=gene:ENSG00000210112;Name=MT-TM-201;biotype=Mt_tRNA;tag=gencode_basic,Ensembl_canonical;transcript_id=ENST00000387377;transcript_support_level=NA;version=1
+MT	insdc	exon	4402	4469	.	+	.	Parent=transcript:ENST00000387377;Name=ENSE00001544493;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ENSE00001544493;rank=1;version=1
+###
+MT	insdc	gene	4470	5511	.	+	.	ID=gene:ENSG00000198763;Name=MT-ND2;biotype=protein_coding;description=mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 2 [Source:HGNC Symbol%3BAcc:HGNC:7456];gene_id=ENSG00000198763;logic_name=mt_genbank_import_homo_sapiens;version=3
+MT	insdc	mRNA	4470	5511	.	+	.	ID=transcript:ENST00000361453;Parent=gene:ENSG00000198763;Name=MT-ND2-201;biotype=protein_coding;tag=gencode_basic,Ensembl_canonical;transcript_id=ENST00000361453;transcript_support_level=NA;version=3
+MT	insdc	exon	4470	5511	.	+	.	Parent=transcript:ENST00000361453;Name=ENSE00001435686;constitutive=1;ensembl_end_phase=1;ensembl_phase=0;exon_id=ENSE00001435686;rank=1;version=3
+MT	insdc	CDS	4470	5511	.	+	0	ID=CDS:ENSP00000355046;Parent=transcript:ENST00000361453;protein_id=ENSP00000355046
+###
+MT	insdc	ncRNA_gene	5512	5579	.	+	.	ID=gene:ENSG00000210117;Name=MT-TW;biotype=Mt_tRNA;description=mitochondrially encoded tRNA-Trp (UGA/G) [Source:HGNC Symbol%3BAcc:HGNC:7501];gene_id=ENSG00000210117;logic_name=mt_genbank_import_homo_sapiens;version=1
+MT	insdc	tRNA	5512	5579	.	+	.	ID=transcript:ENST00000387382;Parent=gene:ENSG00000210117;Name=MT-TW-201;biotype=Mt_tRNA;tag=gencode_basic,Ensembl_canonical;transcript_id=ENST00000387382;transcript_support_level=NA;version=1
+MT	insdc	exon	5512	5579	.	+	.	Parent=transcript:ENST00000387382;Name=ENSE00001544492;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ENSE00001544492;rank=1;version=1
+###
+MT	insdc	ncRNA_gene	5587	5655	.	-	.	ID=gene:ENSG00000210127;Name=MT-TA;biotype=Mt_tRNA;description=mitochondrially encoded tRNA-Ala (GCN) [Source:HGNC Symbol%3BAcc:HGNC:7475];gene_id=ENSG00000210127;logic_name=mt_genbank_import_homo_sapiens;version=1
+MT	insdc	tRNA	5587	5655	.	-	.	ID=transcript:ENST00000387392;Parent=gene:ENSG00000210127;Name=MT-TA-201;biotype=Mt_tRNA;tag=gencode_basic,Ensembl_canonical;transcript_id=ENST00000387392;transcript_support_level=NA;version=1
+MT	insdc	exon	5587	5655	.	-	.	Parent=transcript:ENST00000387392;Name=ENSE00001544491;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ENSE00001544491;rank=1;version=1
+###
+MT	insdc	ncRNA_gene	5657	5729	.	-	.	ID=gene:ENSG00000210135;Name=MT-TN;biotype=Mt_tRNA;description=mitochondrially encoded tRNA-Asn (AAU/C) [Source:HGNC Symbol%3BAcc:HGNC:7493];gene_id=ENSG00000210135;logic_name=mt_genbank_import_homo_sapiens;version=1
+MT	insdc	tRNA	5657	5729	.	-	.	ID=transcript:ENST00000387400;Parent=gene:ENSG00000210135;Name=MT-TN-201;biotype=Mt_tRNA;tag=gencode_basic,Ensembl_canonical;transcript_id=ENST00000387400;transcript_support_level=NA;version=1
+MT	insdc	exon	5657	5729	.	-	.	Parent=transcript:ENST00000387400;Name=ENSE00001544490;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ENSE00001544490;rank=1;version=1
+###
+MT	insdc	ncRNA_gene	5761	5826	.	-	.	ID=gene:ENSG00000210140;Name=MT-TC;biotype=Mt_tRNA;description=mitochondrially encoded tRNA-Cys (UGU/C) [Source:HGNC Symbol%3BAcc:HGNC:7477];gene_id=ENSG00000210140;logic_name=mt_genbank_import_homo_sapiens;version=1
+MT	insdc	tRNA	5761	5826	.	-	.	ID=transcript:ENST00000387405;Parent=gene:ENSG00000210140;Name=MT-TC-201;biotype=Mt_tRNA;tag=gencode_basic,Ensembl_canonical;transcript_id=ENST00000387405;transcript_support_level=NA;version=1
+MT	insdc	exon	5761	5826	.	-	.	Parent=transcript:ENST00000387405;Name=ENSE00001544489;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ENSE00001544489;rank=1;version=1
+###
+MT	insdc	ncRNA_gene	5826	5891	.	-	.	ID=gene:ENSG00000210144;Name=MT-TY;biotype=Mt_tRNA;description=mitochondrially encoded tRNA-Tyr (UAU/C) [Source:HGNC Symbol%3BAcc:HGNC:7502];gene_id=ENSG00000210144;logic_name=mt_genbank_import_homo_sapiens;version=1
+MT	insdc	tRNA	5826	5891	.	-	.	ID=transcript:ENST00000387409;Parent=gene:ENSG00000210144;Name=MT-TY-201;biotype=Mt_tRNA;tag=gencode_basic,Ensembl_canonical;transcript_id=ENST00000387409;transcript_support_level=NA;version=1
+MT	insdc	exon	5826	5891	.	-	.	Parent=transcript:ENST00000387409;Name=ENSE00001544488;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ENSE00001544488;rank=1;version=1
+###
+MT	insdc	gene	5904	7445	.	+	.	ID=gene:ENSG00000198804;Name=MT-CO1;biotype=protein_coding;description=mitochondrially encoded cytochrome c oxidase I [Source:HGNC Symbol%3BAcc:HGNC:7419];gene_id=ENSG00000198804;logic_name=mt_genbank_import_homo_sapiens;version=2
+MT	insdc	mRNA	5904	7445	.	+	.	ID=transcript:ENST00000361624;Parent=gene:ENSG00000198804;Name=MT-CO1-201;biotype=protein_coding;tag=gencode_basic,Ensembl_canonical;transcript_id=ENST00000361624;transcript_support_level=NA;version=2
+MT	insdc	exon	5904	7445	.	+	.	Parent=transcript:ENST00000361624;Name=ENSE00001435647;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ENSE00001435647;rank=1;version=2
+MT	insdc	CDS	5904	7445	.	+	0	ID=CDS:ENSP00000354499;Parent=transcript:ENST00000361624;protein_id=ENSP00000354499
+###
+MT	insdc	ncRNA_gene	7446	7514	.	-	.	ID=gene:ENSG00000210151;Name=MT-TS1;biotype=Mt_tRNA;description=mitochondrially encoded tRNA-Ser (UCN) 1 [Source:HGNC Symbol%3BAcc:HGNC:7497];gene_id=ENSG00000210151;logic_name=mt_genbank_import_homo_sapiens;version=2
+MT	insdc	tRNA	7446	7514	.	-	.	ID=transcript:ENST00000387416;Parent=gene:ENSG00000210151;Name=MT-TS1-201;biotype=Mt_tRNA;tag=gencode_basic,Ensembl_canonical;transcript_id=ENST00000387416;transcript_support_level=NA;version=2
+MT	insdc	exon	7446	7514	.	-	.	Parent=transcript:ENST00000387416;Name=ENSE00001544487;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ENSE00001544487;rank=1;version=2
+###
+MT	insdc	ncRNA_gene	7518	7585	.	+	.	ID=gene:ENSG00000210154;Name=MT-TD;biotype=Mt_tRNA;description=mitochondrially encoded tRNA-Asp (GAU/C) [Source:HGNC Symbol%3BAcc:HGNC:7478];gene_id=ENSG00000210154;logic_name=mt_genbank_import_homo_sapiens;version=1
+MT	insdc	tRNA	7518	7585	.	+	.	ID=transcript:ENST00000387419;Parent=gene:ENSG00000210154;Name=MT-TD-201;biotype=Mt_tRNA;tag=gencode_basic,Ensembl_canonical;transcript_id=ENST00000387419;transcript_support_level=NA;version=1
+MT	insdc	exon	7518	7585	.	+	.	Parent=transcript:ENST00000387419;Name=ENSE00001544486;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ENSE00001544486;rank=1;version=1
+###
+MT	insdc	gene	7586	8269	.	+	.	ID=gene:ENSG00000198712;Name=MT-CO2;biotype=protein_coding;description=mitochondrially encoded cytochrome c oxidase II [Source:HGNC Symbol%3BAcc:HGNC:7421];gene_id=ENSG00000198712;logic_name=mt_genbank_import_homo_sapiens;version=1
+MT	insdc	mRNA	7586	8269	.	+	.	ID=transcript:ENST00000361739;Parent=gene:ENSG00000198712;Name=MT-CO2-201;biotype=protein_coding;tag=gencode_basic,Ensembl_canonical;transcript_id=ENST00000361739;transcript_support_level=NA;version=1
+MT	insdc	exon	7586	8269	.	+	.	Parent=transcript:ENST00000361739;Name=ENSE00001435613;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ENSE00001435613;rank=1;version=1
+MT	insdc	CDS	7586	8269	.	+	0	ID=CDS:ENSP00000354876;Parent=transcript:ENST00000361739;protein_id=ENSP00000354876
+###
+MT	insdc	ncRNA_gene	8295	8364	.	+	.	ID=gene:ENSG00000210156;Name=MT-TK;biotype=Mt_tRNA;description=mitochondrially encoded tRNA-Lys (AAA/G) [Source:HGNC Symbol%3BAcc:HGNC:7489];gene_id=ENSG00000210156;logic_name=mt_genbank_import_homo_sapiens;version=1
+MT	insdc	tRNA	8295	8364	.	+	.	ID=transcript:ENST00000387421;Parent=gene:ENSG00000210156;Name=MT-TK-201;biotype=Mt_tRNA;tag=gencode_basic,Ensembl_canonical;transcript_id=ENST00000387421;transcript_support_level=NA;version=1
+MT	insdc	exon	8295	8364	.	+	.	Parent=transcript:ENST00000387421;Name=ENSE00001544484;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ENSE00001544484;rank=1;version=1
+###
+MT	insdc	gene	8366	8572	.	+	.	ID=gene:ENSG00000228253;Name=MT-ATP8;biotype=protein_coding;description=mitochondrially encoded ATP synthase membrane subunit 8 [Source:HGNC Symbol%3BAcc:HGNC:7415];gene_id=ENSG00000228253;logic_name=mt_genbank_import_homo_sapiens;version=1
+MT	insdc	mRNA	8366	8572	.	+	.	ID=transcript:ENST00000361851;Parent=gene:ENSG00000228253;Name=MT-ATP8-201;biotype=protein_coding;tag=gencode_basic,Ensembl_canonical;transcript_id=ENST00000361851;transcript_support_level=NA;version=1
+MT	insdc	exon	8366	8572	.	+	.	Parent=transcript:ENST00000361851;Name=ENSE00001435286;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ENSE00001435286;rank=1;version=1
+MT	insdc	CDS	8366	8572	.	+	0	ID=CDS:ENSP00000355265;Parent=transcript:ENST00000361851;protein_id=ENSP00000355265
+###
+MT	insdc	gene	8527	9207	.	+	.	ID=gene:ENSG00000198899;Name=MT-ATP6;biotype=protein_coding;description=mitochondrially encoded ATP synthase membrane subunit 6 [Source:HGNC Symbol%3BAcc:HGNC:7414];gene_id=ENSG00000198899;logic_name=mt_genbank_import_homo_sapiens;version=2
+MT	insdc	mRNA	8527	9207	.	+	.	ID=transcript:ENST00000361899;Parent=gene:ENSG00000198899;Name=MT-ATP6-201;biotype=protein_coding;tag=gencode_basic,Ensembl_canonical;transcript_id=ENST00000361899;transcript_support_level=NA;version=2
+MT	insdc	exon	8527	9207	.	+	.	Parent=transcript:ENST00000361899;Name=ENSE00001727012;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ENSE00001727012;rank=1;version=2
+MT	insdc	CDS	8527	9207	.	+	0	ID=CDS:ENSP00000354632;Parent=transcript:ENST00000361899;protein_id=ENSP00000354632
+###
+MT	insdc	gene	9207	9990	.	+	.	ID=gene:ENSG00000198938;Name=MT-CO3;biotype=protein_coding;description=mitochondrially encoded cytochrome c oxidase III [Source:HGNC Symbol%3BAcc:HGNC:7422];gene_id=ENSG00000198938;logic_name=mt_genbank_import_homo_sapiens;version=2
+MT	insdc	mRNA	9207	9990	.	+	.	ID=transcript:ENST00000362079;Parent=gene:ENSG00000198938;Name=MT-CO3-201;biotype=protein_coding;tag=gencode_basic,Ensembl_canonical;transcript_id=ENST00000362079;transcript_support_level=NA;version=2
+MT	insdc	exon	9207	9990	.	+	.	Parent=transcript:ENST00000362079;Name=ENSE00001608952;constitutive=1;ensembl_end_phase=1;ensembl_phase=0;exon_id=ENSE00001608952;rank=1;version=2
+MT	insdc	CDS	9207	9990	.	+	0	ID=CDS:ENSP00000354982;Parent=transcript:ENST00000362079;protein_id=ENSP00000354982
+###
+MT	insdc	ncRNA_gene	9991	10058	.	+	.	ID=gene:ENSG00000210164;Name=MT-TG;biotype=Mt_tRNA;description=mitochondrially encoded tRNA-Gly (GGN) [Source:HGNC Symbol%3BAcc:HGNC:7486];gene_id=ENSG00000210164;logic_name=mt_genbank_import_homo_sapiens;version=1
+MT	insdc	tRNA	9991	10058	.	+	.	ID=transcript:ENST00000387429;Parent=gene:ENSG00000210164;Name=MT-TG-201;biotype=Mt_tRNA;tag=gencode_basic,Ensembl_canonical;transcript_id=ENST00000387429;transcript_support_level=NA;version=1
+MT	insdc	exon	9991	10058	.	+	.	Parent=transcript:ENST00000387429;Name=ENSE00001544483;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ENSE00001544483;rank=1;version=1
+###
+MT	insdc	gene	10059	10404	.	+	.	ID=gene:ENSG00000198840;Name=MT-ND3;biotype=protein_coding;description=mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 3 [Source:HGNC Symbol%3BAcc:HGNC:7458];gene_id=ENSG00000198840;logic_name=mt_genbank_import_homo_sapiens;version=2
+MT	insdc	mRNA	10059	10404	.	+	.	ID=transcript:ENST00000361227;Parent=gene:ENSG00000198840;Name=MT-ND3-201;biotype=protein_coding;tag=gencode_basic,Ensembl_canonical;transcript_id=ENST00000361227;transcript_support_level=NA;version=2
+MT	insdc	exon	10059	10404	.	+	.	Parent=transcript:ENST00000361227;Name=ENSE00001435444;constitutive=1;ensembl_end_phase=1;ensembl_phase=0;exon_id=ENSE00001435444;rank=1;version=2
+MT	insdc	CDS	10059	10404	.	+	0	ID=CDS:ENSP00000355206;Parent=transcript:ENST00000361227;protein_id=ENSP00000355206
+###
+MT	insdc	ncRNA_gene	10405	10469	.	+	.	ID=gene:ENSG00000210174;Name=MT-TR;biotype=Mt_tRNA;description=mitochondrially encoded tRNA-Arg (CGN) [Source:HGNC Symbol%3BAcc:HGNC:7496];gene_id=ENSG00000210174;logic_name=mt_genbank_import_homo_sapiens;version=1
+MT	insdc	tRNA	10405	10469	.	+	.	ID=transcript:ENST00000387439;Parent=gene:ENSG00000210174;Name=MT-TR-201;biotype=Mt_tRNA;tag=gencode_basic,Ensembl_canonical;transcript_id=ENST00000387439;transcript_support_level=NA;version=1
+MT	insdc	exon	10405	10469	.	+	.	Parent=transcript:ENST00000387439;Name=ENSE00001544482;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ENSE00001544482;rank=1;version=1
+###
+MT	insdc	gene	10470	10766	.	+	.	ID=gene:ENSG00000212907;Name=MT-ND4L;biotype=protein_coding;description=mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 4L [Source:HGNC Symbol%3BAcc:HGNC:7460];gene_id=ENSG00000212907;logic_name=mt_genbank_import_homo_sapiens;version=2
+MT	insdc	mRNA	10470	10766	.	+	.	ID=transcript:ENST00000361335;Parent=gene:ENSG00000212907;Name=MT-ND4L-201;biotype=protein_coding;tag=gencode_basic,Ensembl_canonical;transcript_id=ENST00000361335;transcript_support_level=NA;version=1
+MT	insdc	exon	10470	10766	.	+	.	Parent=transcript:ENST00000361335;Name=ENSE00001596097;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ENSE00001596097;rank=1;version=1
+MT	insdc	CDS	10470	10766	.	+	0	ID=CDS:ENSP00000354728;Parent=transcript:ENST00000361335;protein_id=ENSP00000354728
+###
+MT	insdc	gene	10760	12137	.	+	.	ID=gene:ENSG00000198886;Name=MT-ND4;biotype=protein_coding;description=mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 4 [Source:HGNC Symbol%3BAcc:HGNC:7459];gene_id=ENSG00000198886;logic_name=mt_genbank_import_homo_sapiens;version=2
+MT	insdc	mRNA	10760	12137	.	+	.	ID=transcript:ENST00000361381;Parent=gene:ENSG00000198886;Name=MT-ND4-201;biotype=protein_coding;tag=gencode_basic,Ensembl_canonical;transcript_id=ENST00000361381;transcript_support_level=NA;version=2
+MT	insdc	exon	10760	12137	.	+	.	Parent=transcript:ENST00000361381;Name=ENSE00001666004;constitutive=1;ensembl_end_phase=1;ensembl_phase=0;exon_id=ENSE00001666004;rank=1;version=2
+MT	insdc	CDS	10760	12137	.	+	0	ID=CDS:ENSP00000354961;Parent=transcript:ENST00000361381;protein_id=ENSP00000354961
+###
+MT	insdc	ncRNA_gene	12138	12206	.	+	.	ID=gene:ENSG00000210176;Name=MT-TH;biotype=Mt_tRNA;description=mitochondrially encoded tRNA-His (CAU/C) [Source:HGNC Symbol%3BAcc:HGNC:7487];gene_id=ENSG00000210176;logic_name=mt_genbank_import_homo_sapiens;version=1
+MT	insdc	tRNA	12138	12206	.	+	.	ID=transcript:ENST00000387441;Parent=gene:ENSG00000210176;Name=MT-TH-201;biotype=Mt_tRNA;tag=gencode_basic,Ensembl_canonical;transcript_id=ENST00000387441;transcript_support_level=NA;version=1
+MT	insdc	exon	12138	12206	.	+	.	Parent=transcript:ENST00000387441;Name=ENSE00001544480;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ENSE00001544480;rank=1;version=1
+###
+MT	insdc	ncRNA_gene	12207	12265	.	+	.	ID=gene:ENSG00000210184;Name=MT-TS2;biotype=Mt_tRNA;description=mitochondrially encoded tRNA-Ser (AGU/C) 2 [Source:HGNC Symbol%3BAcc:HGNC:7498];gene_id=ENSG00000210184;logic_name=mt_genbank_import_homo_sapiens;version=1
+MT	insdc	tRNA	12207	12265	.	+	.	ID=transcript:ENST00000387449;Parent=gene:ENSG00000210184;Name=MT-TS2-201;biotype=Mt_tRNA;tag=gencode_basic,Ensembl_canonical;transcript_id=ENST00000387449;transcript_support_level=NA;version=1
+MT	insdc	exon	12207	12265	.	+	.	Parent=transcript:ENST00000387449;Name=ENSE00001544479;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ENSE00001544479;rank=1;version=1
+###
+MT	insdc	ncRNA_gene	12266	12336	.	+	.	ID=gene:ENSG00000210191;Name=MT-TL2;biotype=Mt_tRNA;description=mitochondrially encoded tRNA-Leu (CUN) 2 [Source:HGNC Symbol%3BAcc:HGNC:7491];gene_id=ENSG00000210191;logic_name=mt_genbank_import_homo_sapiens;version=1
+MT	insdc	tRNA	12266	12336	.	+	.	ID=transcript:ENST00000387456;Parent=gene:ENSG00000210191;Name=MT-TL2-201;biotype=Mt_tRNA;tag=gencode_basic,Ensembl_canonical;transcript_id=ENST00000387456;transcript_support_level=NA;version=1
+MT	insdc	exon	12266	12336	.	+	.	Parent=transcript:ENST00000387456;Name=ENSE00001544478;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ENSE00001544478;rank=1;version=1
+###
+MT	insdc	gene	12337	14148	.	+	.	ID=gene:ENSG00000198786;Name=MT-ND5;biotype=protein_coding;description=mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 5 [Source:HGNC Symbol%3BAcc:HGNC:7461];gene_id=ENSG00000198786;logic_name=mt_genbank_import_homo_sapiens;version=2
+MT	insdc	mRNA	12337	14148	.	+	.	ID=transcript:ENST00000361567;Parent=gene:ENSG00000198786;Name=MT-ND5-201;biotype=protein_coding;tag=gencode_basic,Ensembl_canonical;transcript_id=ENST00000361567;transcript_support_level=NA;version=2
+MT	insdc	exon	12337	14148	.	+	.	Parent=transcript:ENST00000361567;Name=ENSE00001435330;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ENSE00001435330;rank=1;version=2
+MT	insdc	CDS	12337	14148	.	+	0	ID=CDS:ENSP00000354813;Parent=transcript:ENST00000361567;protein_id=ENSP00000354813
+###
+MT	insdc	gene	14149	14673	.	-	.	ID=gene:ENSG00000198695;Name=MT-ND6;biotype=protein_coding;description=mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 6 [Source:HGNC Symbol%3BAcc:HGNC:7462];gene_id=ENSG00000198695;logic_name=mt_genbank_import_homo_sapiens;version=2
+MT	insdc	mRNA	14149	14673	.	-	.	ID=transcript:ENST00000361681;Parent=gene:ENSG00000198695;Name=MT-ND6-201;biotype=protein_coding;tag=gencode_basic,Ensembl_canonical;transcript_id=ENST00000361681;transcript_support_level=NA;version=2
+MT	insdc	exon	14149	14673	.	-	.	Parent=transcript:ENST00000361681;Name=ENSE00001434974;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ENSE00001434974;rank=1;version=2
+MT	insdc	CDS	14149	14673	.	-	0	ID=CDS:ENSP00000354665;Parent=transcript:ENST00000361681;protein_id=ENSP00000354665
+###
+MT	insdc	ncRNA_gene	14674	14742	.	-	.	ID=gene:ENSG00000210194;Name=MT-TE;biotype=Mt_tRNA;description=mitochondrially encoded tRNA-Glu (GAA/G) [Source:HGNC Symbol%3BAcc:HGNC:7479];gene_id=ENSG00000210194;logic_name=mt_genbank_import_homo_sapiens;version=1
+MT	insdc	tRNA	14674	14742	.	-	.	ID=transcript:ENST00000387459;Parent=gene:ENSG00000210194;Name=MT-TE-201;biotype=Mt_tRNA;tag=gencode_basic,Ensembl_canonical;transcript_id=ENST00000387459;transcript_support_level=NA;version=1
+MT	insdc	exon	14674	14742	.	-	.	Parent=transcript:ENST00000387459;Name=ENSE00001544476;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ENSE00001544476;rank=1;version=1
+###
+MT	insdc	gene	14747	15887	.	+	.	ID=gene:ENSG00000198727;Name=MT-CYB;biotype=protein_coding;description=mitochondrially encoded cytochrome b [Source:HGNC Symbol%3BAcc:HGNC:7427];gene_id=ENSG00000198727;logic_name=mt_genbank_import_homo_sapiens;version=2
+MT	insdc	mRNA	14747	15887	.	+	.	ID=transcript:ENST00000361789;Parent=gene:ENSG00000198727;Name=MT-CYB-201;biotype=protein_coding;tag=gencode_basic,Ensembl_canonical;transcript_id=ENST00000361789;transcript_support_level=NA;version=2
+MT	insdc	exon	14747	15887	.	+	.	Parent=transcript:ENST00000361789;Name=ENSE00001436074;constitutive=1;ensembl_end_phase=1;ensembl_phase=0;exon_id=ENSE00001436074;rank=1;version=2
+MT	insdc	CDS	14747	15887	.	+	0	ID=CDS:ENSP00000354554;Parent=transcript:ENST00000361789;protein_id=ENSP00000354554
+###
+MT	insdc	ncRNA_gene	15888	15953	.	+	.	ID=gene:ENSG00000210195;Name=MT-TT;biotype=Mt_tRNA;description=mitochondrially encoded tRNA-Thr (ACN) [Source:HGNC Symbol%3BAcc:HGNC:7499];gene_id=ENSG00000210195;logic_name=mt_genbank_import_homo_sapiens;version=2
+MT	insdc	tRNA	15888	15953	.	+	.	ID=transcript:ENST00000387460;Parent=gene:ENSG00000210195;Name=MT-TT-201;biotype=Mt_tRNA;tag=gencode_basic,Ensembl_canonical;transcript_id=ENST00000387460;transcript_support_level=NA;version=2
+MT	insdc	exon	15888	15953	.	+	.	Parent=transcript:ENST00000387460;Name=ENSE00001544475;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ENSE00001544475;rank=1;version=2
+###
+MT	insdc	ncRNA_gene	15956	16023	.	-	.	ID=gene:ENSG00000210196;Name=MT-TP;biotype=Mt_tRNA;description=mitochondrially encoded tRNA-Pro (CCN) [Source:HGNC Symbol%3BAcc:HGNC:7494];gene_id=ENSG00000210196;logic_name=mt_genbank_import_homo_sapiens;version=2
+MT	insdc	tRNA	15956	16023	.	-	.	ID=transcript:ENST00000387461;Parent=gene:ENSG00000210196;Name=MT-TP-201;biotype=Mt_tRNA;tag=gencode_basic,Ensembl_canonical;transcript_id=ENST00000387461;transcript_support_level=NA;version=2
+MT	insdc	exon	15956	16023	.	-	.	Parent=transcript:ENST00000387461;Name=ENSE00001544473;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ENSE00001544473;rank=1;version=2
+###
