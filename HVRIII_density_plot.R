@@ -1,7 +1,7 @@
 rm(list=ls(all=T))
 library(data.table)
 library(ggplot2)
-
+ 
 #set date
 current_date <- format(Sys.Date(), "%d%m%Y")
 # Paths
