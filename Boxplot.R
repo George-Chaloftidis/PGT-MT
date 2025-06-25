@@ -1,7 +1,7 @@
 # Clear environment and set working directory
 rm(list = ls(all = TRUE))
 setwd("your/path/Data")
-
+ 
 # Load packages
 suppressPackageStartupMessages(library(dplyr))
 suppressPackageStartupMessages(library(ggplot2))
