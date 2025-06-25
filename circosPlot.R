@@ -1,5 +1,5 @@
 rm(list = ls(all = TRUE))
-
+ 
 # Load libraries
 suppressPackageStartupMessages(library(dplyr))
 suppressPackageStartupMessages(library(ggplot2))
