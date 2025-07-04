@@ -1,3 +1,20 @@
+###########################################################################################################################
+# Author: George Chaloftidis
+# Lab: Cellular Genomic Medicine, Clinical Genetics, Maastricht University (Medical Centre +)
+
+# Script purpose: Visualize heteroplasmy percentages in the HVRII region (chrM:73–340) for euploid and aneuploid samples
+#                using density plots. Also performs a Kolmogorov–Smirnov (KS) test to assess statistical differences 
+#                in heteroplasmy distributions between the two groups.
+
+# Input:
+# - Samplesheet: /your/path/Data/samplesheet.csv
+# - Per-sample heteroplasmy files: /your/path/Output/heteroplasmy/<sampleID>_heteroplasmy.csv
+
+# Output:
+# - Density plot with KS p-value annotation:
+#   * your/path/Output/Density_plot_HVRII_by_group.png
+
+###########################################################################################################################
 rm(list=ls(all=T))
 library(data.table)
 library(ggplot2)
