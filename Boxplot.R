@@ -1,3 +1,15 @@
+###########################################################################################################################
+# Author: George Chaloftidis
+# Lab: Cellular Genomic Medicine, Clinical Genetics, Maastricht University (Medical Centre +)
+
+# Script purpose: Comparison of mitochondrial coverage at known pathological positions across experimental conditions
+
+# Input: Per-position mitochondrial depth file (.csv), samplesheet (.csv), list of pathological positions (pathMITO.csv)
+
+# Output: Boxplot comparing coverage across conditions at pathological positions (.jpg)
+
+###########################################################################################################################
+
 # Clear environment and set working directory
 rm(list = ls(all = TRUE))
 setwd("your/path/Data")
