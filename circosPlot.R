@@ -1,3 +1,15 @@
+###########################################################################################################################
+# Author: George Chaloftidis
+# Lab: Cellular Genomic Medicine, Clinical Genetics, Maastricht University (Medical Centre +)
+
+# Script purpose: Generation of circos plots visualizing mitochondrial genome coverage and annotated features
+
+# Input: Per-position mitochondrial depth file (.csv), samplesheet (.csv), mitochondrial GFF annotation file (.gff3)
+
+# Output: Circos plot of mitochondrial coverage with gene annotations (.jpg), circos plot legend (.jpg)
+
+###########################################################################################################################
+
 rm(list = ls(all = TRUE))
  
 # Load libraries
