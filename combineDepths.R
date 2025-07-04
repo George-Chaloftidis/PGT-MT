@@ -1,3 +1,19 @@
+###########################################################################################################################
+# Author: George Chaloftidis
+# Lab: Cellular Genomic Medicine, Clinical Genetics, Maastricht University (Medical Centre +)
+
+# Script purpose: Aggregate per-position mitochondrial coverage across all embryo samples into a single data matrix.
+
+# Input: 
+# - Samplesheet (samplesheet.csv) listing sampleID and dataDir
+
+# Output:
+# - Combined coverage matrix by position for all samples:
+#   * Output/depthPerPos.csv
+#   * Data/depthPerPos.csv
+
+###########################################################################################################################
+
 rm(list=ls(all=T))
 # loadPackagesx
 library(dplyr)
