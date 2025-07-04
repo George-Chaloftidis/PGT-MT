@@ -1,3 +1,15 @@
+###########################################################################################################################
+# Author: George Chaloftidis
+# Lab: Cellular Genomic Medicine, Clinical Genetics, Maastricht University (Medical Centre +)
+
+# Script purpose: Visualization of heteroplasmic SNP distribution across mitochondrial positions per sample category
+
+# Input: Per-sample heteroplasmy files (.csv), samplesheet (.csv)
+
+# Output: Scatter plots showing heteroplasmy (%) by mitochondrial position for Euploid and Aneuploid samples (.png)
+
+###########################################################################################################################
+
 # Load required libraries
 library(ggplot2)
 library(dplyr)
